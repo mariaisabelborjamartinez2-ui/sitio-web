@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ed3c91">
+  <title>Moda y Estilo Génesis | Brilla a tu manera</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar">
+    ✨ ¡TU ESTILO, TU ESENCIA! ✨
+    <span>ENVÍOS NACIONALES 🇨🇴</span>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="#inicio">
+      <span class="logo-icon">G</span>
+      <span>MODA Y ESTILO<strong>GÉNESIS</strong></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="mainNav">
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#promos">Tendencias</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a class="whatsapp-head" href="https://wa.me/573045788735"
+       target="_blank" rel="noopener">💬 WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="pill">🌷 NUEVA COLECCIÓN</span>
+        <h1>La moda es tuya.<br><span>¡Brilla a tu manera!</span></h1>
+        <p>Colores, tendencias y prendas para expresar esa mujer increíble que eres. Encuentra tus favoritos en nuestra tienda.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-pink" href="#catalogo">Ver catálogo ✨</a>
+          <a class="btn btn-outline" href="https://wa.me/573045788735"
+             target="_blank" rel="noopener">Hacer un pedido ↗</a>
+        </div>
+        <div class="hero-points">
+          <span>💖 Moda con estilo</span>
+          <span>📦 Envíos nacionales</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo"></div>
+        <div class="sticker sticker-one">LOVE<br>YOUR<br>STYLE 💗</div>
+        <div class="sticker sticker-two">✨ ¡NUEVO!</div>
+        <div class="hero-caption">Tu próximo look favorito te espera.</div>
+      </div>
+      <div class="hero-sparkle sparkle-one">✦</div>
+      <div class="hero-sparkle sparkle-two">✿</div>
+    </section>
+
+    <section class="features">
+      <div><span>👗</span><strong>Looks hermosos</strong><small>Para cada ocasión</small></div>
+      <div><span>💌</span><strong>Atención personalizada</strong><small>Te asesoramos por WhatsApp</small></div>
+      <div><span>🚚</span><strong>Envíos nacionales</strong><small>Desde Córdoba, Colombia</small></div>
+    </section>
+
+    <section class="catalog section" id="catalogo">
+      <div class="section-title">
+        <span class="pill">💅 ENCUENTRA TU ESTILO</span>
+        <h2>¡Nuestro <span>catálogo!</span></h2>
+        <p>Escoge tu categoría favorita y enamórate de cada detalle.</p>
+      </div>
+
+      <div class="filters" aria-label="Filtrar catálogo">
+        <button class="filter active" data-category="todos">🌈 Todo</button>
+        <button class="filter" data-category="vestidos">👗 Vestidos</button>
+        <button class="filter" data-category="faldas">🌸 Faldas</button>
+        <button class="filter" data-category="camisetas">👚 Camisetas</button>
+        <button class="filter" data-category="zapatos">👠 Zapatos</button>
+      </div>
+
+      <div class="catalog-count" id="catalogCount"></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="disclaimer">Los precios, las tallas y las fotografías son referencias de ejemplo. Consulta la disponibilidad y el precio real por WhatsApp.</p>
+    </section>
+
+    <section class="promo" id="promos">
+      <div class="promo-flower">✿</div>
+      <div class="promo-copy">
+        <span class="pill pill-white">💖 TU MOMENTO ES AHORA</span>
+        <h2>Vístete de color,<br><em>vístete de alegría.</em></h2>
+        <p>Un look nuevo puede cambiar tu día. Escríbenos y encuentra la prenda perfecta para ti.</p>
+        <a class="btn btn-white" href="https://wa.me/573045788735?text=Hola%2C%20quiero%20conocer%20las%20novedades%20de%20Moda%20y%20Estilo%20G%C3%A9nesis."
+           target="_blank" rel="noopener">Descubrir novedades 💕</a>
+      </div>
+      <div class="promo-bubble">BONITA<br>POR DENTRO<br>Y POR FUERA ✨</div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="contact-copy">
+        <span class="pill">📲 HABLEMOS</span>
+        <h2>¡Tu próxima compra<br><span>comienza aquí!</span></h2>
+        <p>Pregúntanos por modelos, colores, tallas disponibles, precios y opciones de envío.</p>
+        <div class="contact-detail">📍 <span><strong>Ubicación</strong><br>Canalete, Córdoba, Colombia</span></div>
+        <div class="contact-detail">🚚 <span><strong>Envíos</strong><br>A nivel nacional</span></div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-heart">💗</div>
+        <h3>¡Escríbenos!</h3>
+        <p>Estamos listas para ayudarte a elegir tu look ideal.</p>
+        <a class="btn btn-green full" href="https://wa.me/573045788735?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Moda%20y%20Estilo%20G%C3%A9nesis."
+           target="_blank" rel="noopener">💬 WhatsApp 304 578 8735</a>
+        <small>Moda y Estilo Génesis · ¡Gracias por elegirnos!</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#inicio">
+      <span class="logo-icon">G</span>
+      <span>MODA Y ESTILO<strong>GÉNESIS</strong></span>
+    </a>
+    <p>✨ Tu estilo, tu esencia, tu brillo. ✨</p>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Moda y Estilo Génesis</span>
+      <a href="https://wa.me/573045788735" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/573045788735"
+     target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">💬</a>
+</body>
+</html>
